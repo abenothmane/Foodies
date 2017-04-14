@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{95776F63-CD5E-4495-A1F0-6D4FF0338116}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36D55CC5-3395-4E0E-9F51-E9F005D2D3E4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Foodies", "src\Foodies\Foodies.xproj", "{9703024E-FCC1-4F58-A8D6-67CFC25A6D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9703024E-FCC1-4F58-A8D6-67CFC25A6D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9703024E-FCC1-4F58-A8D6-67CFC25A6D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9703024E-FCC1-4F58-A8D6-67CFC25A6D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9703024E-FCC1-4F58-A8D6-67CFC25A6D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9703024E-FCC1-4F58-A8D6-67CFC25A6D5B} = {95776F63-CD5E-4495-A1F0-6D4FF0338116}
+	EndGlobalSection
+EndGlobal
